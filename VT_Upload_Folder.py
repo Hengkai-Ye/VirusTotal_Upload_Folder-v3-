@@ -17,7 +17,7 @@ def getReport(url, apikey, analysis_id):
     return response
 
 def main():
-    apikey = "df141845cee3aa45bd306ab93745daa2c44ee477265533b1583e5e09c4c12841"
+    apikey = "your apikey"
     url1 = "https://www.virustotal.com/api/v3/files"
     url2 = "https://www.virustotal.com/api/v3/analyses/"
     file_folder_src = input("Please input file folder source:")
